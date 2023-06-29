@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1877f2;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 i {
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #d3d9df;
+    border-radius: 4px;
+    padding-right: 30px; /* Add padding to the right side */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .can-be-zucced {
+    color: #ff0000;
+  }
+  
+  .keyword-highlight {
+    font-weight: normal;
+    color: #ff0000;
+  }
+  
+  .safe-from-zucc {
+    color: #00c853;
+  }
+  
